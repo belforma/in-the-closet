@@ -92,6 +92,7 @@ div.post {
     height:auto;
     max-height:350px;
     width:49%;
+    min-width:300px;
     background-color:#fff;
     align-self:stretch;
     overflow:hidden;
@@ -222,6 +223,7 @@ div.archive {
 div.archpost {
     position:relative;
     width:25%;
+    min-width:200px;
     height:auto;
     margin:5px;
     display:flex;
@@ -342,10 +344,21 @@ img.archimg {
 }
 
 .center {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    min-width:200px;
+    max-width:300px;
+}
+
+.avatar {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    max-width:150px;
+    max-height:200px;
 }
 
 .round {
